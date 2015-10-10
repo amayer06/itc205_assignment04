@@ -11,6 +11,7 @@ public class testBug02 {
 	public static void setUpBeforeClass() throws Exception {
 	}
 
+	//Hypothesis01 the Limit is being set incorrectly
 	@Test
 	public void test() {
 		fail("Not yet implemented");
