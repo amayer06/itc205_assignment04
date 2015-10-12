@@ -26,7 +26,6 @@ public class Player {
 		return (balance > limit);
 	}
 	
-	//Bug02 should be >= not >
 	public boolean balanceExceedsLimitBy(int amount) {
 		return (balance - amount > limit);
 	}
@@ -37,9 +36,10 @@ public class Player {
 		balance = balance - bet;
 	}
 	
-	public void receiveWinnings(int winnings) {
+	public void receiveWinnings(int winnings, int bet) {
 		if (winnings < 0) throw new IllegalArgumentException("Winnings cannot be negative.");
-		balance = balance + winnings;		
+		int totalWinnings = winnings + bet;
+		balance = balance + totalWinnings;		
 	}
 	
 	public String toString() {
