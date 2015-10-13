@@ -21,6 +21,8 @@ public class testBug01 {
 		player = new Player("Ame", 50);	
 	}
 	
+	
+	
 	//Test Bug01 Hypothesis with 1 Match
 	@Test
 	public void testOneMatch() {
@@ -50,6 +52,8 @@ public class testBug01 {
 	    System.out.println();
 	}
 
+	
+	
 	//Test Bug01 Hypothesis with 2 Match
 	@Test
 	public void testTwoMatch() {
@@ -78,6 +82,8 @@ public class testBug01 {
 //	    System.out.println("Balance should be: " + (player.getBalance() + bet));
 	    System.out.println();
 	}
+	
+	
 	
 	//Test Bug01 Hypothesis with 3 Match
 	@Test
