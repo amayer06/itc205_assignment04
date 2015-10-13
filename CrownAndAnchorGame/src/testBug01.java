@@ -1,4 +1,4 @@
-package bug.testing;
+
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package bug.testing;
+
 
 
 import static org.junit.Assert.*;
@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import static org.mockito.Mockito.*;
 
 public class testBug02 {
 
