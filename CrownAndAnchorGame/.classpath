@@ -3,5 +3,8 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/Amethyst/Documents/GitHub/itc205_assignment03/ITC515_NewLibrary/lib/java-hamcrest-2.0.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Amethyst/Documents/GitHub/itc205_assignment03/ITC515_NewLibrary/lib/mockito-core-1.10.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Amethyst/Documents/GitHub/itc205_assignment03/ITC515_NewLibrary/lib/objenesis-2.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
