@@ -33,7 +33,8 @@ public class Game {
 		    
 		int matches = 0;
 		for ( Dice d : dice) {
-			if (d.roll().equals(pick)) { 
+			d.roll();
+			if (d.getValue().equals(pick)) { 
 				matches += 1;
 			}
 		}
