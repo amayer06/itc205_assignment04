@@ -14,6 +14,7 @@ public class testBug02 {
 	
 	
 	
+	//Test Bug02 Hypothesis
 	@Test
 	public void testBalanceComparedToLimit() {
 		
@@ -39,5 +40,4 @@ public class testBug02 {
 	    System.out.println("Player Balance: " + player.getBalance());
 	    System.out.println("Does Balance Exceeds Limit? " + player.balanceExceedsLimitBy(bet));
 	}
-
 }

@@ -1,6 +1,5 @@
 import static org.junit.Assert.*;
 
-import org.junit.After;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
@@ -23,7 +22,7 @@ public class testBug03 {
 	
 	
 	
-	//Test Bug03 Hypothesis with 1 Match
+	//Test Bug03 Hypothesis
 	@Test
 	public void testOneMatch() {
 		
@@ -49,5 +48,4 @@ public class testBug03 {
 	    System.out.println("Balance after 1 match: " + player.getBalance());
 	    System.out.println();
 	}
-
 }
